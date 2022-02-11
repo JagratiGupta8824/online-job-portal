@@ -1,0 +1,36 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="Applicant.aspx">Applicant Detail</a></li>
+            <li><a href="vacancy.aspx">Vacancy</a></li>
+            <li><a href="company registration.aspx">Company Registration</a></li>
+            <li><a href="appointment.aspx">Appoinment letter</a></li>
+            <li class="last"><a href="selection praposal.aspx">Selection Praposal</a></li>
+            <li class="last"><a href="selection praposal.aspx">Interview Schedule</a></li>
+        </ul>    	
+    </div>
+    <div id="tooplate_header">
+        
+    </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
